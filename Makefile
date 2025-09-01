@@ -42,6 +42,16 @@ exp3: ## Run mixed batch experiment
 
 experiments: exp1 exp2 exp3 ## Run all experiments
 
+# Llama 3.1 experiments
+llama-exp1: ## Run concurrency experiment with Llama 3.1 8B
+	uv run experiments/exp1_concurrency.py --model meta-llama/Llama-3.1-8B-Instruct --concurrency 1 2 --verbose
+
+llama-exp2: ## Run sequence length experiment with Llama 3.1 8B
+	uv run experiments/exp2_seqlen.py --model meta-llama/Llama-3.1-8B-Instruct --seqlens 128 512 1024 --verbose
+
+llama-bench: ## Run basic benchmark with Llama 3.1 8B
+	uv run profiler/cli.py bench --model meta-llama/Llama-3.1-8B-Instruct --concurrency 1 --verbose
+
 # CLI shortcuts
 bench: ## Run basic benchmark
 	uv run profiler/cli.py bench --model facebook/opt-1.3b --concurrency 2 --verbose

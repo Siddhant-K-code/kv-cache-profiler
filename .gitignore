@@ -68,11 +68,6 @@ ehthumbs.db
 Thumbs.db
 
 # Project specific
-data/
-*.png
-*.svg
-*.json
-*.csv
 logs/
 checkpoints/
 models/

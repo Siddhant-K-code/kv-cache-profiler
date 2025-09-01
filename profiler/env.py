@@ -187,6 +187,18 @@ def check_oom_risk(model_name: str, concurrency: int, seq_len: int) -> Dict[str,
         "gpt2-medium": 1.4,
         "gpt2-large": 3.0,
         "gpt2-xl": 6.0,
+        # Meta Llama 3.1 models
+        "meta-llama/Llama-3.1-8B": 16.0,
+        "meta-llama/Llama-3.1-8B-Instruct": 16.0,
+        "meta-llama/Llama-3.1-70B": 140.0,
+        "meta-llama/Llama-3.1-70B-Instruct": 140.0,
+        "meta-llama/Llama-3.1-405B": 810.0,
+        "meta-llama/Llama-3.1-405B-Instruct": 810.0,
+        # Meta Llama 3 models (legacy)
+        "meta-llama/Meta-Llama-3-8B": 16.0,
+        "meta-llama/Meta-Llama-3-8B-Instruct": 16.0,
+        "meta-llama/Meta-Llama-3-70B": 140.0,
+        "meta-llama/Meta-Llama-3-70B-Instruct": 140.0,
     }
 
     base_model_size = model_sizes.get(model_name, 5.0)  # Default estimate

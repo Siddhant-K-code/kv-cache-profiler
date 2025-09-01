@@ -1,0 +1,66 @@
+{
+  "traces": [
+    {
+      "request_id": 0,
+      "seq_prompt": 32,
+      "seq_generate": 8,
+      "total_latency_s": 0.6570372581481934,
+      "tokens_per_s": 12.175869634162538,
+      "peak_alloc_bytes": 0,
+      "peak_reserved_bytes": 0,
+      "backend": "huggingface",
+      "model": "facebook/opt-1.3b",
+      "timestamp": 1756711947.770256,
+      "error": null
+    },
+    {
+      "request_id": 0,
+      "seq_prompt": 32,
+      "seq_generate": 8,
+      "total_latency_s": 0.654076099395752,
+      "tokens_per_s": 12.230992704657078,
+      "peak_alloc_bytes": 0,
+      "peak_reserved_bytes": 0,
+      "backend": "huggingface",
+      "model": "facebook/opt-1.3b",
+      "timestamp": 1756711948.4279509,
+      "error": null
+    },
+    {
+      "request_id": 1,
+      "seq_prompt": 32,
+      "seq_generate": 8,
+      "total_latency_s": 0.6176595687866211,
+      "tokens_per_s": 12.952118617243844,
+      "peak_alloc_bytes": 0,
+      "peak_reserved_bytes": 0,
+      "backend": "huggingface",
+      "model": "facebook/opt-1.3b",
+      "timestamp": 1756711949.0821598,
+      "error": null
+    }
+  ],
+  "metrics": {
+    "total_requests": 3,
+    "successful_requests": 3,
+    "failed_requests": 0,
+    "error_rate": 0.0,
+    "mean_latency_s": 0.6429243087768555,
+    "min_latency_s": 0.6176595687866211,
+    "max_latency_s": 0.6570372581481934,
+    "p50_latency_s": 0.654076099395752,
+    "p95_latency_s": 0.6570372581481934,
+    "p99_latency_s": 0.6570372581481934,
+    "mean_tokens_per_s": 12.452993652021155,
+    "total_tokens_per_s": 37.35898095606346,
+    "min_tokens_per_s": 12.175869634162538,
+    "max_tokens_per_s": 12.952118617243844,
+    "peak_alloc_bytes": 0,
+    "peak_reserved_bytes": 0,
+    "peak_alloc_gb": 0.0,
+    "peak_reserved_gb": 0.0,
+    "mean_alloc_bytes": 0.0,
+    "mean_reserved_bytes": 0.0
+  },
+  "timestamp": 1756711949.7001166
+}

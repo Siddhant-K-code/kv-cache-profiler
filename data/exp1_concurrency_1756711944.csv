@@ -1,0 +1,4 @@
+request_id,seq_prompt,seq_generate,total_latency_s,tokens_per_s,peak_alloc_bytes,peak_reserved_bytes,peak_alloc_gb,peak_reserved_gb,backend,model,timestamp,error
+0,32,8,0.6570372581481934,12.175869634162538,0,0,0.0,0.0,huggingface,facebook/opt-1.3b,1756711947.770256,
+0,32,8,0.654076099395752,12.230992704657078,0,0,0.0,0.0,huggingface,facebook/opt-1.3b,1756711948.4279509,
+1,32,8,0.6176595687866211,12.952118617243844,0,0,0.0,0.0,huggingface,facebook/opt-1.3b,1756711949.0821598,
