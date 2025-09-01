@@ -1,0 +1,25 @@
+[project]
+name = "kv-cache-profiler"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.13"
+dependencies = [
+    "accelerate>=0.30",
+    "matplotlib>=3.8",
+    "numpy>=1.26",
+    "ollama>=0.5.0",
+    "pydantic>=2",
+    "rich>=13.7",
+    "tokenizers>=0.15",
+    "torch>=2.2",
+    "transformers>=4.41",
+    "typer>=0.12",
+    "vllm>=0.5.0",
+]
+
+[dependency-groups]
+dev = [
+    "mypy>=1.17.1",
+    "pytest>=8.4.1",
+    "ruff>=0.12.11",
+]
