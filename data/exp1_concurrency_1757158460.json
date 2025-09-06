@@ -1,0 +1,66 @@
+{
+  "traces": [
+    {
+      "request_id": 0,
+      "seq_prompt": 129,
+      "seq_generate": 32,
+      "total_latency_s": 38.74939560890198,
+      "tokens_per_s": 0.8258193320736227,
+      "peak_alloc_bytes": 0,
+      "peak_reserved_bytes": 0,
+      "backend": "huggingface",
+      "model": "meta-llama/Llama-3.1-8B-Instruct",
+      "timestamp": 1757158558.096368,
+      "error": null
+    },
+    {
+      "request_id": 0,
+      "seq_prompt": 129,
+      "seq_generate": 32,
+      "total_latency_s": 38.39948487281799,
+      "tokens_per_s": 0.8333445124586027,
+      "peak_alloc_bytes": 0,
+      "peak_reserved_bytes": 0,
+      "backend": "huggingface",
+      "model": "meta-llama/Llama-3.1-8B-Instruct",
+      "timestamp": 1757158596.8462238,
+      "error": null
+    },
+    {
+      "request_id": 1,
+      "seq_prompt": 129,
+      "seq_generate": 32,
+      "total_latency_s": 38.51629114151001,
+      "tokens_per_s": 0.8308172737201264,
+      "peak_alloc_bytes": 0,
+      "peak_reserved_bytes": 0,
+      "backend": "huggingface",
+      "model": "meta-llama/Llama-3.1-8B-Instruct",
+      "timestamp": 1757158635.2458348,
+      "error": null
+    }
+  ],
+  "metrics": {
+    "total_requests": 3,
+    "successful_requests": 3,
+    "failed_requests": 0,
+    "error_rate": 0.0,
+    "mean_latency_s": 38.555057207743324,
+    "min_latency_s": 38.39948487281799,
+    "max_latency_s": 38.74939560890198,
+    "p50_latency_s": 38.51629114151001,
+    "p95_latency_s": 38.74939560890198,
+    "p99_latency_s": 38.74939560890198,
+    "mean_tokens_per_s": 0.8299937060841173,
+    "total_tokens_per_s": 2.4899811182523517,
+    "min_tokens_per_s": 0.8258193320736227,
+    "max_tokens_per_s": 0.8333445124586027,
+    "peak_alloc_bytes": 0,
+    "peak_reserved_bytes": 0,
+    "peak_alloc_gb": 0.0,
+    "peak_reserved_gb": 0.0,
+    "mean_alloc_bytes": 0.0,
+    "mean_reserved_bytes": 0.0
+  },
+  "timestamp": 1757158673.7624364
+}
