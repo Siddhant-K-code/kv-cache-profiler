@@ -1,0 +1,66 @@
+{
+  "traces": [
+    {
+      "request_id": 0,
+      "seq_prompt": 129,
+      "seq_generate": 32,
+      "total_latency_s": 42.060065031051636,
+      "tokens_per_s": 0.7608167028837306,
+      "peak_alloc_bytes": 0,
+      "peak_reserved_bytes": 0,
+      "backend": "huggingface",
+      "model": "meta-llama/Llama-3.1-8B-Instruct",
+      "timestamp": 1757161410.3144944,
+      "error": null
+    },
+    {
+      "request_id": 0,
+      "seq_prompt": 129,
+      "seq_generate": 32,
+      "total_latency_s": 38.94906282424927,
+      "tokens_per_s": 0.8215858785715672,
+      "peak_alloc_bytes": 0,
+      "peak_reserved_bytes": 0,
+      "backend": "huggingface",
+      "model": "meta-llama/Llama-3.1-8B-Instruct",
+      "timestamp": 1757161452.3752754,
+      "error": null
+    },
+    {
+      "request_id": 1,
+      "seq_prompt": 129,
+      "seq_generate": 32,
+      "total_latency_s": 43.846017599105835,
+      "tokens_per_s": 0.7298268292592344,
+      "peak_alloc_bytes": 0,
+      "peak_reserved_bytes": 0,
+      "backend": "huggingface",
+      "model": "meta-llama/Llama-3.1-8B-Instruct",
+      "timestamp": 1757161491.3245413,
+      "error": null
+    }
+  ],
+  "metrics": {
+    "total_requests": 3,
+    "successful_requests": 3,
+    "failed_requests": 0,
+    "error_rate": 0.0,
+    "mean_latency_s": 41.61838181813558,
+    "min_latency_s": 38.94906282424927,
+    "max_latency_s": 43.846017599105835,
+    "p50_latency_s": 42.060065031051636,
+    "p95_latency_s": 43.846017599105835,
+    "p99_latency_s": 43.846017599105835,
+    "mean_tokens_per_s": 0.770743136904844,
+    "total_tokens_per_s": 2.312229410714532,
+    "min_tokens_per_s": 0.7298268292592344,
+    "max_tokens_per_s": 0.8215858785715672,
+    "peak_alloc_bytes": 0,
+    "peak_reserved_bytes": 0,
+    "peak_alloc_gb": 0.0,
+    "peak_reserved_gb": 0.0,
+    "mean_alloc_bytes": 0.0,
+    "mean_reserved_bytes": 0.0
+  },
+  "timestamp": 1757161535.1713955
+}

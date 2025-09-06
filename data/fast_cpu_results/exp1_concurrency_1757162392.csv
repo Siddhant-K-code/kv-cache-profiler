@@ -1,0 +1,4 @@
+request_id,seq_prompt,seq_generate,total_latency_s,tokens_per_s,peak_alloc_bytes,peak_reserved_bytes,peak_alloc_gb,peak_reserved_gb,backend,model,timestamp,error
+0,129,32,40.62441873550415,0.7877035781938033,0,0,0.0,0.0,huggingface,meta-llama/Llama-3.1-8B-Instruct,1757162394.5147123,
+0,129,32,37.91458487510681,0.8440023833944154,0,0,0.0,0.0,huggingface,meta-llama/Llama-3.1-8B-Instruct,1757162435.1457965,
+1,129,32,39.11379647254944,0.8181256458308261,0,0,0.0,0.0,huggingface,meta-llama/Llama-3.1-8B-Instruct,1757162473.0614681,

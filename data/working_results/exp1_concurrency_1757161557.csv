@@ -1,0 +1,16 @@
+request_id,seq_prompt,seq_generate,total_latency_s,tokens_per_s,peak_alloc_bytes,peak_reserved_bytes,peak_alloc_gb,peak_reserved_gb,backend,model,timestamp,error
+0,0,0,0.012397527694702148,0.0,0,0,0.0,0.0,huggingface,meta-llama/Llama-3.1-8B-Instruct,1757161561.4368196,"CUDA error: no kernel image is available for execution on the device
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+"
+0,0,0,0.004755496978759766,0.0,0,0,0.0,0.0,huggingface,meta-llama/Llama-3.1-8B-Instruct,1757161561.4496117,"CUDA error: no kernel image is available for execution on the device
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+"
+1,0,0,0.004446506500244141,0.0,0,0,0.0,0.0,huggingface,meta-llama/Llama-3.1-8B-Instruct,1757161561.4544153,"CUDA error: no kernel image is available for execution on the device
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+"
